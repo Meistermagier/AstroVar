@@ -114,7 +114,7 @@ def iter_detrend(Flux : np.ndarray ,Time : np.ndarray, FeatureMask : np.ndarray 
     periods = periodgrid
     frequency = 1/periods
 
-    if FeatureMask == None:
+    if type(FeatureMask) == type(None):
         FeatureMask = np.ones_like(Flux,dtype = bool)
 
     flx = Flux[FeatureMask]
@@ -193,8 +193,20 @@ def iter_detrend(Flux : np.ndarray ,Time : np.ndarray, FeatureMask : np.ndarray 
 
 
 def plot_iterative(Time : np.ndarray, Flux : np.ndarray , Additional_Dict : Dict , tbl_Detrend : Table ,n_single : int,FeatureMask = None , periodgrid  : np.ndarray = np.logspace(np.log10(0.25),np.log10(30),1000)):
-    
-    n_single = 2 # How many Iteration Steps are plotted
+    """_summary_
+
+    Args:
+        Time (np.ndarray): _description_
+        Flux (np.ndarray): _description_
+        Additional_Dict (Dict): _description_
+        tbl_Detrend (Table): _description_
+        n_single (int):  How many Iteration Steps are plotted
+        FeatureMask (_type_, optional): _description_. Defaults to None.
+        periodgrid (np.ndarray, optional): _description_. Defaults to np.logspace(np.log10(0.25),np.log10(30),1000).
+
+    Returns:
+        _type_: _description_
+    """
 
     periods = periodgrid
     tme = Time
@@ -203,7 +215,7 @@ def plot_iterative(Time : np.ndarray, Flux : np.ndarray , Additional_Dict : Dict
     Powers = Additional_Dict["Powers"]
     FAP_Levels = Additional_Dict["FAP_Levels"]
     Flux_Features = Additional_Dict["Flux_Features"]
-    if FeatureMask == None:
+    if type(FeatureMask) == type(None):
         FeatureMask = np.ones_like(Flux,dtype = bool)
 
 

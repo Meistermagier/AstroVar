@@ -3,12 +3,12 @@ Name: AstroVar
 Version: 0.0.1
 Summary: This packages is used to detrend and find the Variability in photometric lightcurves 
 Author-email: Tom Ihro <tom.ihro@gmail.com>
-Project-URL: Homepage, https://github.com/pypa/sampleproject
-Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Project-URL: Homepage, https://github.com/Meistermagier/AstroVar
+Project-URL: Bug Tracker, https://github.com/Meistermagier/AstroVar/issues
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
-Requires-Python: >=3.9.12
+Requires-Python: >=3.7
 Description-Content-Type: text/x-rst
 License-File: LICENSE.txt
 
