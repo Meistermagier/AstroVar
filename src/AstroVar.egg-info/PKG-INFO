@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: AstroVar
+Version: 0.0.1
+Summary: This packages is used to detrend and find the Variability in photometric lightcurves 
+Author-email: Tom Ihro <tom.ihro@gmail.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9.12
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+
+=================
+VariabilityThesis
+=================
+
+
+    Add a short description here!
+
+
+A longer description of your project goes here...
+

@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+src/AstroVar/AstroVar.py
+src/AstroVar/__init__.py
+src/AstroVar.egg-info/PKG-INFO
+src/AstroVar.egg-info/SOURCES.txt
+src/AstroVar.egg-info/dependency_links.txt
+src/AstroVar.egg-info/top_level.txt

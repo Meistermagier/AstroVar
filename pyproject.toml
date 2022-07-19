@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "AstroVar"
+version = "0.0.1"
+authors = [
+  { name="Tom Ihro", email="tom.ihro@gmail.com" },
+]
+description = "This packages is used to detrend and find the Variability in photometric lightcurves "
+readme = "README.rst"
+license = { file="LICENSE" }
+requires-python = ">=3.9.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
