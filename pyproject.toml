@@ -11,7 +11,7 @@ authors = [
 description = "This packages is used to detrend and find the Variability in photometric lightcurves "
 readme = "README.rst"
 license = { file="LICENSE" }
-requires-python = ">=3.9.12"
+requires-python = ">=3.7"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
