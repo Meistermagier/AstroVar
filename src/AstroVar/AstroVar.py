@@ -209,7 +209,7 @@ def plot_iterative(Time : np.ndarray, Flux : np.ndarray , Additional_Dict : Dict
     """
 
     periods = periodgrid
-    tme = Time
+    
     Fluxes = Additional_Dict["Fluxes"]
     Sines = Additional_Dict["Sines"]
     Powers = Additional_Dict["Powers"]
@@ -217,7 +217,8 @@ def plot_iterative(Time : np.ndarray, Flux : np.ndarray , Additional_Dict : Dict
     Flux_Features = Additional_Dict["Flux_Features"]
     if type(FeatureMask) == type(None):
         FeatureMask = np.ones_like(Flux,dtype = bool)
-
+    tme = Time[FeatureMask]
+    flx = Flux[FeatureMask]
 
     #Figure
     fig = plt.figure(constrained_layout = False,figsize=(13,2*(n_single+1)))
