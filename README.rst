@@ -1,8 +1,9 @@
-|Experimental|
+|Generic badge|
 
-.. |Experimental| image:: https://img.shields.io/badge/stability-experimental-orange.svg
+.. |Generic badge| image:: https://img.shields.io/badge/<SUBJECT>-<STATUS>-<COLOR>.svg
    :target:
-
+   
+ 
 =================
 VariabilityThesis
 =================
